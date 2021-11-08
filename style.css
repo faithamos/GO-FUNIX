@@ -1,0 +1,804 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.section-one{
+    background-color: rgb(1, 1, 34);
+    text-align: center;
+}
+.mail-top{
+    color: rgb(248, 236, 236);
+    padding: 20px;
+    line-height: 30px;
+}
+.inquire-now{
+    width: 80%;
+    height: 35px;
+    background-color:rgb(129, 129, 15);
+    color: white;
+    border: 1px solid rgb(129, 129, 15);
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 100px;
+    margin-bottom: 5px;
+}
+.mail-topt{
+    display: none;
+}
+.first-container{
+    display: block;
+}
+.mail-topd{
+    display: none;
+}
+.sectiont-two{
+    height: 280px;
+    overflow: hidden;
+}
+.logo{
+    width: 30%;
+}
+.logo-section{
+    display: flex;
+    padding:20px 30px;
+    gap: 10px;
+}
+.logo-hone{
+    font-size: 25px;
+    color: rgb(1, 1, 34);
+}
+.logo-hsix{
+    color: rgb(129, 129, 15);
+    font-size: 12px;
+}
+.call-section{
+    display: flex;
+    padding: 10px 30px;
+    gap: 10px;
+}
+.location-section{
+    display: flex;
+    padding: 10px 30px;
+    gap: 10px;
+}
+.sect-ht{
+    border-radius: 3px;
+    border: 1px solid rgb(224, 217, 217);
+    width: 35px;
+    height: 40px;
+}
+.call-hsix{
+    color: rgb(129, 129, 15);
+    font-size: 12px;
+}
+.first-span{
+    color: rgb(1, 1, 34);
+    font-size: 16px;
+}
+.call-secp{
+    font-size: 12px;
+    color: gray;
+}
+.section-three{
+    background-color:rgb(1, 1, 34) ;
+    /* display: flex; */
+}
+.nav-cont{
+    position: absolute;
+    background-color: rgb(1, 1, 34);
+    width: 100%;
+    height: 0;
+    overflow-y: hidden;
+
+}
+li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    padding: 30px;
+    font-size: 16px;
+    line-height: 30px;
+}
+.hamburgerIcon{
+    display: flex;
+}
+.button-cont{
+    display: none;
+}
+.hamburger{
+    width: 30px;
+    margin-top:8px ;
+}
+.nav-menu{
+    color: white;
+    margin-top: 10px;
+}
+.show-nav-dropdown{
+    height: max-content;
+}
+.section-four{
+    /* margin-top: -5px; */
+    overflow: hidden;
+    /* background-image: url(./images/back-ground.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.72), rgba(0, 0, 10, 0.80)),
+    url('./images/mechelin-bg.jpg');
+}
+.four-conts{
+    /* padding-top: 140px; */
+    padding: 140px 30px 0 30px;
+}
+.four-hone{
+    font-size: 30px;
+    color: white;
+}
+.fourp{
+    line-height: 25px;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+.section-five{
+    padding: 0 30px 30px 30px;
+}
+.buy{
+    width: 30px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 8px;
+    /* background-color: rgb(129, 129, 15); */
+}
+.buy-image{
+    background-color: rgb(129, 129, 15);
+    width: 150px;
+    height: 50px;
+    border-radius: 50%;
+    /* margin-bottom: 20px; */
+}
+.import-image{
+    background-color: rgb(1, 1, 34);
+    width: 180px;
+    height: 50px;
+    border-radius: 50%;
+}
+.import{
+    width: 30px;
+    height: 25px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.top-five{
+    display: flex;
+    background-color:rgb(1, 1, 34) ;
+    color: white;
+    height: 220px;
+    padding: 30px;
+}
+.middle-five{
+    display: flex;
+    background-color: rgb(129, 129, 15);
+    color: white;
+    height: 220px;
+    padding: 30px;
+}
+.last-five{
+    display: flex;
+    background-color:rgb(1, 1, 34) ;
+    color: white;
+    height: 220px;
+    padding: 30px;
+}
+.five-htre{
+    margin-bottom: 15px;
+}
+.five-mini{
+    margin-left: 15px;
+}
+.section-six{
+    padding: 30px;
+}
+.six-image{
+    width: 100%;
+    margin-bottom: 50px;
+    /* height: 40%; */
+}
+.six-htre{
+    color: rgb(129, 129, 15);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.six-hone{
+    color: rgb(19, 18, 18);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.sixp{
+    padding: 0 0px 20px 40px;
+    color: rgb(31, 30, 30);
+}
+.section-seven{
+    padding: 30px;
+    text-align: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.72), rgba(0, 0, 10, 0.80)),
+    url('./images/tyres-one.jpg');
+}
+.sevenmi{
+    color: white;
+}
+.seven-htre{
+    font-size: 30px;
+}
+.sevenp{
+    line-height: 25px;
+    margin-top: 20px;
+}
+.section-eight{
+    padding: 30px;
+    /* gap: 50px; */
+}
+.eight-top{
+    text-align: center;
+    padding: 50px 30px;
+}
+.eight-htre{
+    color: rgb(129, 129, 15);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.eight-htwo{
+    color: rgb(36, 35, 35);
+    font-size: 25px;
+}
+.eight-first{
+    background-color: whitesmoke;
+    height: 460px;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.eight-middle{
+    background-color: whitesmoke;
+    height: 460px;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.eight-last{
+    background-color: whitesmoke;
+    height: 460px;
+    padding: 30px;
+    text-align: center;
+}
+.first-image{
+    width: 100%;
+}
+.middle-image{
+    width: 100%;
+}
+.last-image{
+    width: 100%;
+}
+.eight-htref{
+    color: rgb(36, 35, 35);
+    font-size: 20px;
+    padding: 30px;
+}
+.eightpf{
+    /* padding: 30px; */
+    line-height: 25px;
+    color: gray;
+    font-size: 18px;
+}
+.section-nine{
+    background-color: rgb(1, 1, 34);
+    padding: 50px 10px 50px 30px;
+    /* height: 800%; */
+}
+.about{
+    margin-bottom: 30px;
+}
+.link{
+    margin-bottom: 30px;
+}
+.ninep{
+    line-height: 40px;
+    color: gray;
+    font-size: 18px;
+}
+.nine-htre{
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: white;
+}
+.section-ten{
+    padding: 30px;
+    text-align: center;
+    /* background-color: gray; */
+}
+.ten-image{
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+    margin-bottom: 50px;
+}
+.ten-image-bg{
+    background-color: white;
+    width: 75%;
+    height: 20%;
+    margin-bottom: 40px;
+}
+.ten-image-bgc{
+    background-color: white;
+    width: 60%;
+}
+.ten-hone{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: rgb(36, 35, 35);
+}
+.tenp{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: rgb(129, 129, 15);          
+}
+
+
+/* .nav-menu{
+    display: block;
+} */
+/*tablet*/
+@media screen and (min-width:700px) {
+    .mail-topt{
+        display: block;
+    }
+    .first-container{
+        display: none;
+    }
+    .mailt-container{
+        display: flex;
+        justify-content: space-around;
+        color: rgb(248, 236, 236);
+        padding: 20px;
+    }
+    .mail-topd{
+        display: none;
+    }
+    .sectiont-two{
+        height: 320px;
+        padding:20px 50px;
+    }
+    .logo{
+        width: 15%;
+    }
+    .logo-section{
+        display: flex;
+        padding:20px 30px;
+        gap: 10px;
+    }
+    .nav-menu{
+        display: block;
+    }
+    .nav-menu{
+        padding-top: 20px;
+        font-size: 5px;
+    }
+    .button-cont{
+        display: none;
+    }
+    .hamburgerIcon{
+        display: flex;
+        margin-left: 70px;
+    }
+    .nav-menu{
+        color: white;
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+    .hamburger{
+        width: 30px;
+        margin-top:12px ;
+    }
+    .four-conts{
+        width: 80%;
+        /* margin: 0px 0px 50px 0px; */
+    }
+    .four-hone{
+        font-size: 35px;
+        font-weight: bolder;
+    }
+    .fourp{
+        line-height: 30px;
+        margin-top: 60px;
+    }
+    .buy-image{
+        width: 60px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .buy{
+        margin-left: 10px;
+    }
+    .import-image{
+        width: 80px;
+        height: 50px;
+    }
+    .top-five{
+        height: 150px;
+       line-height: 25px;
+    }
+    .middle-five{
+        height: 150px;
+        line-height: 25px;
+    }
+    .last-five{
+        height: 170px;
+        line-height: 25px;
+    }
+    .section-five{
+        padding: 0 70px 90px 70px;
+    }
+    .section-six{
+        padding: 70px;
+    }
+    .six-image{
+        width: 100%;
+        height: 600px;
+        margin-bottom: 50px;
+        /* height: 40%; */
+    }
+    .six-htre{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .six-hone{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .sixp{
+        font-size: 18px;
+        padding: 0 0px 20px 40px;
+    }
+    .seven-htre{
+        font-size: 35px;
+    }
+    .sevenp{
+        line-height: 25px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .first-image{
+        width: 100%;
+        height: 300px;
+    }
+    .middle-image{
+        width: 100%;
+        height: 300px;
+    }
+    .last-image{
+        width: 100%;
+        height: 300px;
+    }
+    .section-eight{
+        padding: 70px;
+        /* gap: 50px; */
+    }
+    .eight-first{
+        background-color: whitesmoke;
+        height: 550px;
+        padding: 30px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .eight-middle{
+        background-color: whitesmoke;
+        height: 550px;
+        padding: 30px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .eight-last{
+        background-color: whitesmoke;
+        height: 550px;
+        padding: 30px;
+        text-align: center;
+    }
+    .section-nine{
+        background-color: rgb(1, 1, 34);
+        padding: 70px 10px 70px 70px;
+        /* height: 800%; */
+    }
+    .section-ten{
+        padding: 70px;
+        text-align: center;
+    }
+    .ten-image{
+        width: 80%;
+        /* background-color: red; */
+        margin-bottom: 50px;
+    }
+    .ten-hone{
+        font-size: 30px;
+        margin-bottom: 10px;
+        color: rgb(36, 35, 35);
+    }
+    .tenp{
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: rgb(129, 129, 15);          
+    }
+    
+    
+}
+/*desktop*/
+@media screen and (min-width:1000px) {
+    .mail-topd{
+        display: block;
+    }
+    .mailt-container{
+        display: block;
+    }
+    .mailt-containerd{
+        display: flex;
+        justify-content: space-around;
+        color: rgb(248, 236, 236);
+        padding: 20px;
+    }
+    .mail-topt{
+        display: none;
+    }
+    .inquire-now{
+        width: 100%;
+        height: 20px;
+        background-color:rgb(129, 129, 15);
+        color: white;
+        border: 1px solid rgb(129, 129, 15);
+        border-radius: 5px;
+        font-size: 10px;
+        padding: 5px 2px;
+        font-weight: 100px;
+        margin-bottom: 5px;
+    }
+    .section-one{
+        height: 50px;
+    }
+    .sectiont-two{
+        display: flex;
+        justify-content: space-around;
+        height: 150px;
+    }
+    .logo{
+        width: 30%;
+        height: 70px;
+    }
+    .section-three{
+        width: 87%;
+        height: 50px;
+        margin: 0 auto;
+    }
+    .nav-cont{
+        display: block;
+        font-size: 18px;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .nav-links{
+        display: flex;
+        gap: 30px;
+        list-style-type: none;
+        
+       
+    }
+    li a{
+        text-decoration: none;
+        list-style-type: none;
+        color: white;
+        padding: 30px;
+        font-size: 16px;
+    }
+    li a:hover{
+        background-color: rgb(129, 129, 15);
+        height:100px;
+    }
+    .menuItems{
+        display: flex;
+        justify-content:space-between;
+    }
+    .nav-cont{
+        position: unset;
+        height: 50px;
+    }
+    .hamburgerIcon{
+        display: none;
+    }
+    .button-cont{
+        display: block;
+    }
+    .nav-links{
+        padding-top: 10px;
+    }
+    .nav-button{
+        margin-top: 12px;
+        padding:5px;
+        border: 1px solid gray;
+        width: 150px;
+        background-color: gray;
+        color: white;
+        border-radius: 5px;
+        margin-right: 20px;
+    }
+    .four-conts{
+        width: 50%;
+    }
+    .four-hone{
+        font-size: 45px;
+    }
+    .five-conts{
+        display: flex;
+        margin-top: -30px;
+    }
+    .top-five{
+        height: 220px;
+       line-height: 25px;
+       width: 50%;
+    }
+    .middle-five{
+        height: 220px;
+        line-height: 25px;
+        width: 50%;
+    }
+    .last-five{
+        height: 220px;
+        line-height: 25px;
+        width: 50%;
+    }
+    .buy-image{
+        width: 80px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .buy{
+        margin-right: 10px;
+        width: 25px;
+    }
+    .import-image{
+        width: 80px;
+        height: 40px;
+    }
+    .import{
+        width: 25px;
+        margin-right: 5px;
+    }
+    .six-cont{
+        display: flex;
+    }
+    .six-left{
+        width: 50%;
+    }
+    .six-right{
+        width: 50%;
+        margin-top: 60px;
+        margin-left: 60px;
+        /* text-align: center; */
+    }
+    .section-six{
+        padding: 0 70px 30px 70px;
+        height: 550px;
+    }
+    .six-image{
+        width: 100%;
+        height: 500px;
+        margin-bottom: 50px;
+        /* height: 40%; */
+    }
+    .six-htre{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .six-hone{
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .sixp{
+        font-size: 18px;
+        padding: 0 0px 20px 40px;
+    }
+    .seven-htre{
+        font-size: 45px;
+    }
+    .sevenp{
+        line-height: 40px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .section-seven{
+        height: 300px;
+    }
+    .eight-cont{
+        display: flex;
+        gap: 40px;
+    }
+    .first-image{
+        width: 100%;
+        height: 300px;
+    }
+    .middle-image{
+        width: 100%;
+        height: 300px;
+        margin-top: 10px;
+    }
+    .last-image{
+        width: 100%;
+        height: 300px;
+        margin-top: 10px;
+    }
+    .section-eight{
+        padding: 70px;
+        /* gap: 50px; */
+    }
+    .eight-first{
+        background-color: whitesmoke;
+        height: 600px;
+        width: 800px;
+        padding: 50px;
+        text-align: center;
+        border-radius: 10px;
+        /* margin-bottom: 50px; */
+    }
+    .eight-middle{
+        background-color: whitesmoke;
+        height: 600px;
+        width: 800px;
+        /* padding: 30px; */
+        text-align: center;
+        border-radius: 10px;
+        /* margin-bottom: 50px; */
+    }
+    .eight-last{
+        background-color: whitesmoke;
+        height: 600px;
+        width: 800px;
+        border-radius: 10px;
+        /* padding: 30px; */
+        text-align: center;
+    }
+    .eight-htre{
+        font-size: 20px;
+    }
+    .eight-htwo{
+        font-size: 30px;
+    }
+    .nine-cont{
+        display: flex;
+        justify-content: space-between;
+        gap: 150px;
+        padding: 30px;
+    }
+    .ten-cont{
+        display: flex;
+    }
+    .section-ten{
+        background-color: gray;
+    }
+    .ten-hone{
+        font-size: 45px;
+    }
+    .tenp{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    
+    
+    
+}
