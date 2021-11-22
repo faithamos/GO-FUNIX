@@ -105,17 +105,20 @@ li a{
 }
 .hamburgerIcon{
     display: flex;
+    padding-left: 30px;
 }
 .button-cont{
     display: none;
 }
 .hamburger{
     width: 30px;
+    /* height: 10px; */
     margin-top:8px ;
 }
 .nav-menu{
     color: white;
     margin-top: 10px;
+    margin-left: 5px;
 }
 .show-nav-dropdown{
     height: max-content;
@@ -155,24 +158,24 @@ li a{
     /* background-color: rgb(129, 129, 15); */
 }
 .buy-image{
-    background-color: rgb(129, 129, 15);
-    width: 150px;
-    height: 50px;
+    /* background-color: rgb(129, 129, 15); */
+    width: 80px;
+    height: 46px;
     border-radius: 50%;
     /* margin-bottom: 20px; */
 }
 .import-image{
-    background-color: rgb(1, 1, 34);
-    width: 180px;
-    height: 50px;
+    /* background-color: rgb(1, 1, 34); */
+    width: 80px;
+    height: 46px;
     border-radius: 50%;
 }
-.import{
+/* .import{
     width: 30px;
     height: 25px;
     margin-left: 5px;
     margin-top: 10px;
-}
+} */
 .top-five{
     display: flex;
     background-color:rgb(1, 1, 34) ;
@@ -219,7 +222,7 @@ li a{
     margin-bottom: 20px;
 }
 .sixp{
-    padding: 0 0px 20px 40px;
+    /* padding: 0 0px 20px 40px; */
     color: rgb(31, 30, 30);
 }
 .section-seven{
@@ -276,7 +279,7 @@ li a{
 }
 .eight-last{
     background-color: whitesmoke;
-    height: 460px;
+    height: 618px;
     padding: 30px;
     text-align: center;
 }
@@ -352,11 +355,130 @@ li a{
     font-size: 18px;
     color: rgb(129, 129, 15);          
 }
-
-
-/* .nav-menu{
+/*service*/
+.service-three{
+    width: 100%;
+}
+.service-left{
+    background-color:rgb(233, 233, 153);
+    color: white;
+    /* width: 50%; */
+}
+.service-right{
+    background-color: rgb(129, 129, 15);
+    color: white;
+    /* width: 50%; */
+}
+.servicep{
+    line-height: 35px;
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+.leftserv-img{
+    width: 350px;
+}
+.service-one{
+    display: none;
+}
+/*about*/
+.about-three{
+    width: 100%;
+    padding: 30px;
+    margin-top: 70px;
+    text-align: center;
+}
+.abtft{
+    width: 200px;
+    gap: 100px;
+    /* border-radius: 20px; */
+}
+.abtp{
+    height: 300px;
+    width: 350px;
+    margin-bottom: 50px;
+    background-color: rgb(214, 212, 212);
+}
+.about-four{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.72), rgba(0, 0, 10, 0.80)),
+    url('./images/abt..jpg');
+    margin-bottom: 40px;
+    width: 100%;
+}
+.abtfour-wholesale{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    color: rgb(29, 28, 28);
+}
+.whole-button{
+   padding: 15px 50px;
+   background-color: rgb(129, 129, 15);
+   border: 1px solid rgb(129, 129, 15);
+   border-radius: 8px;
+   color: wheat;
+   display: block;
+   margin: auto;
+   margin-top: 20px;
+}
+.contact-first{
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+.contact-htre{
+    color: rgb(129, 129, 15);
+    margin-bottom: 10px;
+}
+.contact-hone{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.contactp{
+    color: gray;
+}
+.contact-question{
+    display: none;
+}
+.contact-last{
     display: block;
-} */
+    margin: 0 auto;
+    padding: 30px;
+}
+input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    /* margin-bottom: 20px;
+    margin: 20px; */
+}
+.form-button{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 20px;
+    background-color: rgb(129, 129, 15);
+    border: 1px solid rgb(129, 129, 15);
+    color: white;
+    border-radius: 10px;
+    /* justify-content: center; */
+}
+.input-text{
+    font-size: 10px;
+    color: black;
+}
+.nav-menu{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
 /*tablet*/
 @media screen and (min-width:700px) {
     .mail-topt{
@@ -389,10 +511,10 @@ li a{
     .nav-menu{
         display: block;
     }
-    .nav-menu{
+    /* .nav-menu{
         padding-top: 20px;
         font-size: 5px;
-    }
+    } */
     .button-cont{
         display: none;
     }
@@ -403,7 +525,7 @@ li a{
     .nav-menu{
         color: white;
         font-size: 20px;
-        margin-bottom: 16px;
+        margin-bottom: 10px;
     }
     .hamburger{
         width: 30px;
@@ -442,7 +564,7 @@ li a{
         line-height: 25px;
     }
     .last-five{
-        height: 170px;
+        height: 200px;
         line-height: 25px;
     }
     .section-five{
@@ -467,7 +589,7 @@ li a{
     }
     .sixp{
         font-size: 18px;
-        padding: 0 0px 20px 40px;
+        /* padding: 0 0px 20px 40px; */
     }
     .seven-htre{
         font-size: 35px;
@@ -509,7 +631,7 @@ li a{
     }
     .eight-last{
         background-color: whitesmoke;
-        height: 550px;
+        height: 618 px;
         padding: 30px;
         text-align: center;
     }
@@ -536,6 +658,114 @@ li a{
         margin-bottom: 10px;
         font-size: 20px;
         color: rgb(129, 129, 15);          
+    }
+    .service-three{
+        width: 100%;
+        padding: 30px;
+    }
+    .service-left{
+        background-color:rgb(233, 233, 153);
+        color: white;
+        /* width: 50%; */
+    }
+    .service-right{
+        background-color: rgb(129, 129, 15);
+        color: white;
+        /* width: 50%; */
+    }
+    .servicep{
+        line-height: 30px;
+        padding: 40px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .leftserv-img{
+        width: 400px;
+    }
+    .service-one{
+        display: none;
+    }
+    .abtfour-wholesale{
+        text-align: center;
+        padding-top: 20px;
+        font-size: 35px;
+        color: rgb(29, 28, 28);
+    }
+    .whole-button{
+       padding: 15px 50px;
+       background-color: rgb(129, 129, 15);
+       border: 1px solid rgb(129, 129, 15);
+       border-radius: 8px;
+       color: wheat;
+       display: block;
+       margin: auto;
+       margin-top: 20px;
+    }
+    .contact-question{
+        display: none;
+    }
+    .contact-last{
+        display: block;
+        margin: 0 auto;
+        padding: 70px;
+    }
+    input{
+        width: 100%;
+        height: 50px;
+        margin-bottom: 30px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        /* margin-bottom: 20px;
+        margin: 20px; */
+    }
+    .form-button{
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        height: 50px;
+        background-color: rgb(129, 129, 15);
+        border: 1px solid rgb(129, 129, 15);
+        color: white;
+        border-radius: 10px;
+        /* justify-content: center; */
+    }
+    .input-text{
+        font-size: 10px;
+        color: black;
+    }
+    .hamburger{
+        width: 30px;
+        /* height: 10px; */
+        margin-top:20px ;
+    }
+    .nav-menu{
+        color: white;
+        font-size: 20px;
+        padding-top: 15px;
+    }
+
+    
+}
+@media screen and (min-width:686px) {
+    .eight-first{
+        background-color: whitesmoke;
+        height: 530px;
+        padding: 30px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .eight-middle{
+        background-color: whitesmoke;
+        height: 550px;
+        padding: 30px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .eight-last{
+        background-color: whitesmoke;
+        height:629px;
+        padding: 30px;
+        text-align: center;
     }
     
     
@@ -628,15 +858,22 @@ li a{
     .nav-links{
         padding-top: 10px;
     }
-    .nav-button{
+    .nav-button {
         margin-top: 12px;
         padding:5px;
         border: 1px solid gray;
         width: 150px;
         background-color: gray;
-        color: white;
+        /* color: white; */
         border-radius: 5px;
         margin-right: 20px;
+    }
+    .nav-button a{
+        
+        /* background-color: gray; */
+        color: white;
+        text-decoration: none;
+       
     }
     .four-conts{
         width: 50%;
@@ -649,17 +886,17 @@ li a{
         margin-top: -30px;
     }
     .top-five{
-        height: 220px;
+        height: 280px;
        line-height: 25px;
        width: 50%;
     }
     .middle-five{
-        height: 220px;
+        height: 280px;
         line-height: 25px;
         width: 50%;
     }
     .last-five{
-        height: 220px;
+        height: 280px;
         line-height: 25px;
         width: 50%;
     }
@@ -700,7 +937,6 @@ li a{
         width: 100%;
         height: 500px;
         margin-bottom: 50px;
-        /* height: 40%; */
     }
     .six-htre{
         font-size: 16px;
@@ -712,7 +948,7 @@ li a{
     }
     .sixp{
         font-size: 18px;
-        padding: 0 0px 20px 40px;
+        /* padding: 0 0px 20px 40px; */
     }
     .seven-htre{
         font-size: 45px;
@@ -798,6 +1034,209 @@ li a{
         font-size: 20px;
         margin-bottom: 40px;
     }
+    
+.sectionf-abt{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.72), rgba(0, 0, 10, 0.80)),
+    url('./images/importance-or-tyres-in-road-safety.png');
+}
+.section-six{
+    margin-top: 70px;
+}
+.abthone{
+    text-align: center;
+}
+.six-hone{
+    margin-bottom: 40px;
+}
+.about-three{
+    width: 100%;
+    margin-top: 70px;
+}
+.abttre-cont{
+    display: flex;
+    justify-content: center;
+}
+.abtft{
+    width: 400px;
+    gap: 100px;
+    /* border-radius: 20px; */
+}
+.abtp{
+    height: 300px;
+    width: 350px;
+    margin-bottom: 50px;
+    background-color: rgb(214, 212, 212);
+}
+.abthone{
+    margin-bottom: 50px;
+    font-size: 40px;
+    color: rgb(29, 28, 28);
+}
+.about-four{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.72), rgba(0, 0, 10, 0.80)),
+    url('./images/abt..jpg');
+    /* margin-bottom: 100px; */
+    /* padding: 50px; */
+    width: 60%;
+    margin: 0 auto;
+
+}
+.abtfour-wholesale{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 50px;
+    color: rgb(29, 28, 28);
+}
+.whole-button{
+   padding: 15px 50px;
+   background-color: rgb(129, 129, 15);
+   border: 1px solid rgb(129, 129, 15);
+   border-radius: 8px;
+   color: wheat;
+   display: block;
+   margin: auto;
+   margin-top: 20px;
+}
+.section-nine{
+    margin-top: 80px;
+}
+    /*services*/
+    .service-one{
+        height: 250px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image:
+        linear-gradient(to bottom, rgba(245, 246, 252, 0.72), rgba(0, 0, 10, 0.90)),
+        url('./images/history.jpg');
+
+    }
+    .service-onecont{
+        padding: 160px 50px 50px 30px;
+        color: white;
+        font-size: 35px;
+    }
+    .service-three{
+        width: 80%;
+        /* background-color: red; */
+        /* height: 1000px; */
+        margin: 0 auto;
+        height: 800px;
+        /* margin-bottom: 50px; */
+    }
+    .servicet-cont{
+        display: flex;
+    }
+    .service-left{
+        /* background-color:rgb(233, 233, 153); */
+        background-color: rgb(1, 1, 34);
+        color: white;
+        width: 50%;
+    }
+    .service-right{
+        background-color: rgb(129, 129, 15);
+        color: white;
+        width: 50%;
+    }
+    .servicep{
+        line-height: 35px;
+        padding: 40px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .leftserv-img{
+        width: 500px;
+    }
+    .service-one{
+        display: block;
+    }
+    .mapouter{
+        padding: 30px;
+    }
+    .contact-first{
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+    }
+    .contact-htre{
+        color: rgb(129, 129, 15);
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .contact-hone{
+        color: black;
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .contactp{
+        color: gray;
+        width: 500px;
+        margin: auto;
+    }
+    .contact-question{
+        display: block;
+        /* margin-bottom: 20px; */
+    }
+    
+    .contact-last{
+        display: flex;
+        justify-content: center;
+        /* margin: 0 auto; */
+    }
+    input{
+        width: 100%;
+        height: 70px;
+        margin-bottom: 50px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        /* margin-bottom: 20px;
+        margin: 20px; */
+    }
+    .input-mssg{
+        height: 150px;
+    }
+    .form-button{
+        /* display: block; */
+        /* margin: 0 auto; */
+        width: 50%;
+        height: 50px;
+        background-color: rgb(129, 129, 15);
+        border: 1px solid rgb(129, 129, 15);
+        color: white;
+        border-radius: 10px;
+        /* justify-content: center; */
+    }
+    .input-text{
+        font-size: 15px;
+        color: black;
+    }
+    .contact-form{
+        background-color: rgb(247, 244, 244);
+        padding: 50px;
+        border-radius: 2%;
+        /* margin-bottom: 100px; */
+
+    }
+    .call-section{
+        margin-bottom: 100px;
+    }
+    .location-section{
+        margin-bottom: 100px;
+    }
+    /* .sect-ht{
+        border-radius: 3px;
+        border: 1px solid rgb(224, 217, 217);
+        width: 35px;
+        height: 40px;
+    }
+     */
     
     
     
