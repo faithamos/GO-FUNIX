@@ -1,11 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+
 *{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: 'Cabin', sans-serif;}
+:root{
+    --font-sm:18px;
+    --font-md:23px;
+    --font-xl:30px;
+    --font-xxl:38px;
+    --container: 100%;
+    /* font-size: var(--font-sm) */
 }
-body{
-    font-family: 'Roboto', sans-serif;
-}
+
+@media screen and (min-width:640px) {
+    :root{
+        --font-sm:20px;
+        --font-md:25px;
+        --font-xl:32px;
+        --font-xxl:40px;
+        --container: 640px;
+    }}
+@media screen and (min-width:768px) {
+    :root{
+        --font-sm:20px;
+        --font-md:25px;
+        --font-xl:32px;
+        --font-xxl:40px;
+        --container: 768px;
+    }}
+@media screen and (min-width:1024px) {
+    :root{
+        --font-sm:20px;
+        --font-md:25px;
+        --font-xl:32px;
+        --font-xxl:40px;
+        --container: 1024px;
+    }}
+@media screen and (min-width:1280px) {
+    :root{
+        --font-sm:20px;
+        --font-md:25px;
+        --font-xl:32px;
+        --font-xxl:40px;
+        --container: 1280px;
+        /* font-size: var(--font-sm) */
+    }}
+
+
+
+/* body{ */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Prata', serif; */
+/* } */
 .section-one{
     background-color: rgb(1, 1, 34);
     text-align: center;
@@ -17,14 +66,19 @@ body{
 }
 .inquire-now{
     width: 80%;
-    height: 35px;
+    /* height: 35px; */
     background-color:rgb(129, 129, 15);
     color: white;
     border: 1px solid rgb(129, 129, 15);
     border-radius: 15px;
-    font-size: 16px;
+    /* font-size: var(--font-sm); */
     font-weight: 100px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.inquire-now a{
+    color:#fff;
+    text-decoration: none;
 }
 .mail-topt{
     display: none;
@@ -36,7 +90,8 @@ body{
     display: none;
 }
 .sectiont-two{
-    height: 280px;
+    /* height: 280px; */
+    min-height: min-content;
     overflow: hidden;
 }
 .logo{
@@ -65,6 +120,7 @@ body{
     padding: 10px 30px;
     gap: 10px;
 }
+
 .sect-ht{
     border-radius: 3px;
     border: 1px solid rgb(224, 217, 217);
@@ -80,7 +136,7 @@ body{
     font-size: 16px;
 }
 .call-secp{
-    font-size: 12px;
+    font-size: var(--font-sm);
     color: gray;
 }
 .section-three{
@@ -100,7 +156,7 @@ li a{
     list-style-type: none;
     color: white;
     padding: 30px;
-    font-size: 16px;
+    font-size: var(--font-sm);
     line-height: 30px;
 }
 .hamburgerIcon{
@@ -129,23 +185,28 @@ li a{
     /* background-image: url(./images/back-ground.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    /* height: 650px; */
+    min-height: min-content;
+    padding-bottom:20px;
     background-image:
     linear-gradient(to bottom, rgba(245, 246, 252, 0.72), rgba(0, 0, 10, 0.80)),
-    url('./images/mechelin-bg.jpg');
+    url('./faith\ \(1\).jpg');
 }
 .four-conts{
     /* padding-top: 140px; */
-    padding: 140px 30px 0 30px;
+    padding: 140px 30px 0 29px;
 }
 .four-hone{
-    font-size: 30px;
+    font-size: var(--font-xxl);
     color: white;
+    max-width: 90%;
+    margin: auto;
 }
 .fourp{
+    font-size: var(--font-sm);
     line-height: 25px;
     color: whitesmoke;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .section-five{
     padding: 0 30px 30px 30px;
@@ -180,25 +241,28 @@ li a{
     display: flex;
     background-color:rgb(1, 1, 34) ;
     color: white;
-    height: 220px;
-    padding: 30px;
+    height: 250px;
+    padding: 30px 0;
 }
 .middle-five{
     display: flex;
     background-color: rgb(129, 129, 15);
     color: white;
-    height: 220px;
-    padding: 30px;
+    height: 250px;
+    padding: 30px 0;
 }
 .last-five{
     display: flex;
     background-color:rgb(1, 1, 34) ;
     color: white;
-    height: 220px;
-    padding: 30px;
+    height: 250px;
+    padding: 30px 0;
 }
 .five-htre{
     margin-bottom: 15px;
+}
+.fivep{
+    font-size: var(--font-sm);
 }
 .five-mini{
     margin-left: 15px;
@@ -208,22 +272,25 @@ li a{
 }
 .six-image{
     width: 100%;
-    margin-bottom: 50px;
+    background-size: contain;
+    border-radius: 10px;
+    /* margin-bottom: 50px; */
     /* height: 40%; */
 }
 .six-htre{
     color: rgb(129, 129, 15);
-    font-size: 14px;
+    font-size: var(--font-sm);
     margin-bottom: 10px;
 }
 .six-hone{
     color: rgb(19, 18, 18);
-    font-size: 20px;
+    font-size: var(--font-md);
     margin-bottom: 20px;
 }
 .sixp{
     /* padding: 0 0px 20px 40px; */
     color: rgb(31, 30, 30);
+    font-size: var(--font-sm);
 }
 .section-seven{
     padding: 30px;
@@ -231,7 +298,8 @@ li a{
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    /* height: 400px; */
+    min-height: min-content;
     background-image:
     linear-gradient(to bottom, rgba(245, 246, 252, 0.72), rgba(0, 0, 10, 0.80)),
     url('./images/tyres-one.jpg');
@@ -245,6 +313,7 @@ li a{
 .sevenp{
     line-height: 25px;
     margin-top: 20px;
+    font-size: var(--font-sm);
 }
 .section-eight{
     padding: 30px;
@@ -256,12 +325,12 @@ li a{
 }
 .eight-htre{
     color: rgb(129, 129, 15);
-    font-size: 14px;
+    font-size: var(--font-sm);
     margin-bottom: 10px;
 }
 .eight-htwo{
     color: rgb(36, 35, 35);
-    font-size: 25px;
+    font-size: var(--font-md);
 }
 .eight-first{
     background-color: whitesmoke;
@@ -301,7 +370,7 @@ li a{
     /* padding: 30px; */
     line-height: 25px;
     color: gray;
-    font-size: 18px;
+    font-size: var(--font-sm);
 }
 .section-nine{
     background-color: rgb(1, 1, 34);
@@ -321,7 +390,7 @@ li a{
 }
 .nine-htre{
     margin-bottom: 30px;
-    font-size: 20px;
+    font-size: var(--font-md);
     color: white;
 }
 .section-ten{
@@ -346,13 +415,13 @@ li a{
     width: 60%;
 }
 .ten-hone{
-    font-size: 25px;
+    font-size: var(--font-md);
     margin-bottom: 10px;
     color: rgb(36, 35, 35);
 }
 .tenp{
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: var(--font-sm);
     color: rgb(129, 129, 15);          
 }
 /*service*/
@@ -373,7 +442,7 @@ li a{
     line-height: 35px;
     padding: 40px;
     text-align: center;
-    font-size: 20px;
+    font-size: var(--font-md);
 }
 .leftserv-img{
     width: 350px;
@@ -412,7 +481,7 @@ li a{
 .abtfour-wholesale{
     text-align: center;
     padding-top: 20px;
-    font-size: 25px;
+    font-size: var(--font-xl);
     color: rgb(29, 28, 28);
 }
 .whole-button{
@@ -476,7 +545,7 @@ input{
 }
 .nav-menu{
     color: white;
-    font-size: 20px;
+    font-size: var(--font-md);
     margin-bottom: 10px;
 }
 /*tablet*/
@@ -520,7 +589,7 @@ input{
     }
     .hamburgerIcon{
         display: flex;
-        margin-left: 70px;
+        /* margin-left: 70px; */
     }
     .nav-menu{
         color: white;
@@ -533,11 +602,20 @@ input{
     }
     .four-conts{
         width: 80%;
-        /* margin: 0px 0px 50px 0px; */
+
+
+        /* margin: 0 auto; */
+        /* padding: 20px; */
+        /* margin: 0px 0px 30px 0px; */
     }
     .four-hone{
-        font-size: 35px;
+        font-size: var(--font-xxl);
         font-weight: bolder;
+        max-width: 100%;
+    }
+    .five-htre{
+        margin-bottom: 15px;
+        font-size:var(--font-md) ;
     }
     .fourp{
         line-height: 30px;
@@ -556,15 +634,18 @@ input{
         height: 50px;
     }
     .top-five{
-        height: 150px;
+        /* height: 150px; */
+        min-height: min-content;
        line-height: 25px;
     }
     .middle-five{
-        height: 150px;
+        /* height: 150px; */
+        min-height: min-content;
         line-height: 25px;
     }
     .last-five{
-        height: 200px;
+        /* height: 200px; */
+        min-height: min-content;
         line-height: 25px;
     }
     .section-five{
@@ -580,24 +661,24 @@ input{
         /* height: 40%; */
     }
     .six-htre{
-        font-size: 16px;
+        font-size: var(--font-md);
         margin-bottom: 10px;
     }
     .six-hone{
-        font-size: 25px;
+        font-size: var(--font-xxl);
         margin-bottom: 20px;
     }
     .sixp{
-        font-size: 18px;
+        font-size: var(--font-sm);
         /* padding: 0 0px 20px 40px; */
     }
     .seven-htre{
-        font-size: 35px;
+        font-size: var(--font-xl);
     }
     .sevenp{
         line-height: 25px;
         margin-top: 20px;
-        font-size: 20px;
+        font-size: var(--font-md);
     }
     .first-image{
         width: 100%;
@@ -635,6 +716,9 @@ input{
         padding: 30px;
         text-align: center;
     }
+    .eight-htref{
+        font-size: var(--font-md);
+    }
     .section-nine{
         background-color: rgb(1, 1, 34);
         padding: 70px 10px 70px 70px;
@@ -650,13 +734,13 @@ input{
         margin-bottom: 50px;
     }
     .ten-hone{
-        font-size: 30px;
+        font-size: var(--font-xxl);
         margin-bottom: 10px;
         color: rgb(36, 35, 35);
     }
     .tenp{
         margin-bottom: 10px;
-        font-size: 20px;
+        font-size: var(--font-md);
         color: rgb(129, 129, 15);          
     }
     .service-three{
@@ -677,7 +761,7 @@ input{
         line-height: 30px;
         padding: 40px;
         text-align: center;
-        font-size: 20px;
+        font-size: var(--font-md);
     }
     .leftserv-img{
         width: 400px;
@@ -688,7 +772,7 @@ input{
     .abtfour-wholesale{
         text-align: center;
         padding-top: 20px;
-        font-size: 35px;
+        font-size: var(--font-xxl);
         color: rgb(29, 28, 28);
     }
     .whole-button{
@@ -730,7 +814,7 @@ input{
         /* justify-content: center; */
     }
     .input-text{
-        font-size: 10px;
+        font-size: var(--font-sm);
         color: black;
     }
     .hamburger{
@@ -740,7 +824,7 @@ input{
     }
     .nav-menu{
         color: white;
-        font-size: 20px;
+        font-size: var(--font-md);
         padding-top: 15px;
     }
 
@@ -789,15 +873,15 @@ input{
     }
     .inquire-now{
         width: 100%;
-        height: 20px;
+        /* height: 20px; */
         background-color:rgb(129, 129, 15);
         color: white;
         border: 1px solid rgb(129, 129, 15);
         border-radius: 5px;
-        font-size: 10px;
-        padding: 5px 2px;
-        font-weight: 100px;
-        margin-bottom: 5px;
+        /* font-size: var(--font-sm); */
+        padding: 2px 2px;
+        /* font-weight: 100px; */
+        margin-top: 4px;
     }
     .section-one{
         height: 50px;
@@ -835,7 +919,7 @@ input{
         list-style-type: none;
         color: white;
         padding: 30px;
-        font-size: 16px;
+        font-size: var(--font-sm);
     }
     li a:hover{
         background-color: rgb(129, 129, 15);
@@ -854,6 +938,7 @@ input{
     }
     .button-cont{
         display: block;
+        /* background-color: rgb(129, 129, 15); */
     }
     .nav-links{
         padding-top: 10px;
@@ -861,10 +946,10 @@ input{
     .nav-button {
         margin-top: 12px;
         padding:5px;
-        border: 1px solid gray;
+        border: 1px solid  rgb(129, 129, 15);;
         width: 150px;
-        background-color: gray;
-        /* color: white; */
+        background-color: rgb(129, 129, 15);;
+        color: white;
         border-radius: 5px;
         margin-right: 20px;
     }
@@ -875,11 +960,17 @@ input{
         text-decoration: none;
        
     }
+    .section-four{
+        min-height: min-content;
+    }
     .four-conts{
         width: 50%;
+        margin: 0px 0px 30px 50px;
+
     }
     .four-hone{
-        font-size: 45px;
+        font-size: var(--font-xxl);
+        /* padding: ; */
     }
     .five-conts{
         display: flex;
@@ -939,24 +1030,26 @@ input{
         margin-bottom: 50px;
     }
     .six-htre{
-        font-size: 16px;
+        font-size: var(--font-md);
         margin-bottom: 10px;
     }
     .six-hone{
-        font-size: 35px;
+        font-size: var(--font-xxl);
         margin-bottom: 20px;
     }
     .sixp{
-        font-size: 18px;
+        font-size: var(--font-md);
+        line-height: 25px;
+        color: rgb(61, 61, 61);
         /* padding: 0 0px 20px 40px; */
     }
     .seven-htre{
-        font-size: 45px;
+        font-size: var(--font-xxl);
     }
     .sevenp{
         line-height: 40px;
         margin-top: 20px;
-        font-size: 20px;
+        font-size: var(--font-md);
     }
     .section-seven{
         height: 300px;
@@ -1010,10 +1103,10 @@ input{
         text-align: center;
     }
     .eight-htre{
-        font-size: 20px;
+        font-size: var(--font-md);
     }
     .eight-htwo{
-        font-size: 30px;
+        font-size: var(--font-xxl);
     }
     .nine-cont{
         display: flex;
@@ -1028,10 +1121,10 @@ input{
         background-color: gray;
     }
     .ten-hone{
-        font-size: 45px;
+        font-size: var(--font-xxl);
     }
     .tenp{
-        font-size: 20px;
+        font-size: var(--font-md);
         margin-bottom: 40px;
     }
     
@@ -1073,7 +1166,7 @@ input{
 }
 .abthone{
     margin-bottom: 50px;
-    font-size: 40px;
+    font-size: var(--font-xxl);
     color: rgb(29, 28, 28);
 }
 .about-four{
@@ -1092,7 +1185,7 @@ input{
 .abtfour-wholesale{
     text-align: center;
     padding-top: 80px;
-    font-size: 50px;
+    font-size: var(--font-xxl);
     color: rgb(29, 28, 28);
 }
 .whole-button{
@@ -1119,9 +1212,9 @@ input{
 
     }
     .service-onecont{
-        padding: 160px 50px 50px 30px;
+        padding: 160px 50px 50px 80px;
         color: white;
-        font-size: 35px;
+        font-size: var(--font-xxl);
     }
     .service-three{
         width: 80%;
@@ -1149,7 +1242,7 @@ input{
         line-height: 35px;
         padding: 40px;
         text-align: center;
-        font-size: 20px;
+        font-size: var(--font-md);
     }
     .leftserv-img{
         width: 500px;
@@ -1167,12 +1260,12 @@ input{
     }
     .contact-htre{
         color: rgb(129, 129, 15);
-        font-size: 20px;
+        font-size: var(--font-md);
         margin-bottom: 10px;
     }
     .contact-hone{
         color: black;
-        font-size: 50px;
+        font-size: var(--font-xxl);
         margin-bottom: 20px;
     }
     .contactp{
@@ -1201,6 +1294,7 @@ input{
     }
     .input-mssg{
         height: 150px;
+        padding: 30px;
     }
     .form-button{
         /* display: block; */
@@ -1214,8 +1308,9 @@ input{
         /* justify-content: center; */
     }
     .input-text{
-        font-size: 15px;
+        font-size: var(--font-sm);
         color: black;
+        padding: 30px;
     }
     .contact-form{
         background-color: rgb(247, 244, 244);
