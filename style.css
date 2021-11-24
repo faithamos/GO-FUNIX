@@ -391,6 +391,8 @@ li a{
     margin-bottom: 30px;
 }
 .link-cont{
+    display: flex;
+    flex-direction: column;
     text-decoration: none;
     color: white;
     margin-bottom: 30px;
