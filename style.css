@@ -12,7 +12,6 @@
     --font-xl:30px;
     --font-xxl:38px;
     --container: 100%;
-    /* font-size: var(--font-sm) */
 }
 
 @media screen and (min-width:640px) {
@@ -46,15 +45,9 @@
         --font-xl:32px;
         --font-xxl:40px;
         --container: 1280px;
-        /* font-size: var(--font-sm) */
+       
     }}
 
-
-
-/* body{ */
-    /* font-family: 'Roboto', sans-serif; */
-    /* font-family: 'Prata', serif; */
-/* } */
 .current-page{
     background-color:rgb(129, 129, 15);
 }
@@ -69,12 +62,10 @@
 }
 .inquire-now{
     width: 80%;
-    /* height: 35px; */
     background-color:rgb(129, 129, 15);
     color: white;
     border: 1px solid rgb(129, 129, 15);
     border-radius: 15px;
-    /* font-size: var(--font-sm); */
     font-weight: 100px;
     margin-bottom: 10px;
 }
@@ -93,7 +84,6 @@
     display: none;
 }
 .sectiont-two{
-    /* height: 280px; */
     min-height: min-content;
     overflow: hidden;
 }
@@ -144,10 +134,8 @@
 }
 .section-three{
     background-color:rgb(1, 1, 34) ;
-    /* display: flex; */
 }
 .nav-cont{
-    /* position: absolute;` */
     background-color: rgb(1, 1, 34);
     width: 100%;
     height: 0;
@@ -172,7 +160,6 @@ li a{
 }
 .hamburger{
     width: 30px;
-    /* height: 10px; */
     margin-top:8px ;
 }
 .nav-menu{
@@ -184,12 +171,9 @@ li a{
     height: max-content;
 }
 .section-four{
-    /* margin-top: -5px; */
     overflow: hidden;
-    /* background-image: url(./images/back-ground.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 650px; */
     min-height: min-content;
     padding-bottom:20px;
     background-image:
@@ -197,7 +181,6 @@ li a{
     url('./faith\ \(1\).jpg');
 }
 .four-conts{
-    /* padding-top: 140px; */
     padding: 140px 30px 0 29px;
 }
 .four-hone{
@@ -223,46 +206,36 @@ li a{
     height: 25px;
     margin-top: 10px;
     margin-left: 8px;
-    /* background-color: rgb(129, 129, 15); */
 }
 .buy-image{
-    /* background-color: rgb(129, 129, 15); */
     width: 80px;
     height: 46px;
     border-radius: 50%;
-    /* margin-bottom: 20px; */
 }
 .import-image{
-    /* background-color: rgb(1, 1, 34); */
     width: 80px;
     height: 46px;
     border-radius: 50%;
 }
-/* .import{
-    width: 30px;
-    height: 25px;
-    margin-left: 5px;
-    margin-top: 10px;
-} */
 .top-five{
     display: flex;
     background-color:rgb(1, 1, 34) ;
     color: white;
-    height: 250px;
+    min-height: max-content;
     padding: 30px 0;
 }
 .middle-five{
     display: flex;
     background-color: rgb(129, 129, 15);
     color: white;
-    height: 250px;
+    min-height: max-content;
     padding: 30px 0;
 }
 .last-five{
     display: flex;
     background-color:rgb(1, 1, 34) ;
     color: white;
-    height: 250px;
+    min-height: max-content;
     padding: 30px 0;
 }
 .five-htre{
@@ -281,8 +254,6 @@ li a{
     width: 100%;
     background-size: contain;
     border-radius: 10px;
-    /* margin-bottom: 50px; */
-    /* height: 40%; */
 }
 .six-htre{
     color: rgb(129, 129, 15);
@@ -295,7 +266,6 @@ li a{
     margin-bottom: 20px;
 }
 .sixp{
-    /* padding: 0 0px 20px 40px; */
     color: rgb(31, 30, 30);
     font-size: var(--font-sm);
 }
@@ -305,7 +275,6 @@ li a{
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 400px; */
     min-height: min-content;
     background-image:
     linear-gradient(to bottom, rgba(245, 246, 252, 0.72), rgba(0, 0, 10, 0.80)),
@@ -324,7 +293,6 @@ li a{
 }
 .section-eight{
     padding: 30px;
-    /* gap: 50px; */
 }
 .eight-top{
     text-align: center;
@@ -374,7 +342,6 @@ li a{
     padding: 30px;
 }
 .eightpf{
-    /* padding: 30px; */
     line-height: 25px;
     color: gray;
     font-size: var(--font-sm);
@@ -382,7 +349,6 @@ li a{
 .section-nine{
     background-color: rgb(1, 1, 34);
     padding: 50px 10px 50px 30px;
-    /* height: 800%; */
 }
 .about{
     margin-bottom: 30px;
@@ -390,7 +356,7 @@ li a{
 .link{
     margin-bottom: 30px;
 }
-.link-cont{
+.link-cont a{
     display: flex;
     flex-direction: column;
     text-decoration: none;
@@ -410,12 +376,10 @@ li a{
 .section-ten{
     padding: 30px;
     text-align: center;
-    /* background-color: gray; */
 }
 .ten-image{
     width: 100%;
     height: 20%;
-    /* background-color: red; */
     margin-bottom: 50px;
 }
 .ten-image-bg{
@@ -443,14 +407,12 @@ li a{
     width: 100%;
 }
 .service-left{
-    background-color:rgb(233, 233, 153);
+    background-color: rgb(1, 1, 34);
     color: white;
-    /* width: 50%; */
 }
 .service-right{
     background-color: rgb(129, 129, 15);
     color: white;
-    /* width: 50%; */
 }
 .servicep{
     line-height: 35px;
@@ -474,7 +436,6 @@ li a{
 .abtft{
     width: 200px;
     gap: 100px;
-    /* border-radius: 20px; */
 }
 .abtp{
     height: 300px;
@@ -539,8 +500,6 @@ input{
     margin-bottom: 10px;
     border: 1px solid gray;
     border-radius: 10px;
-    /* margin-bottom: 20px;
-    margin: 20px; */
 }
 .form-button{
     display: block;
@@ -551,7 +510,6 @@ input{
     border: 1px solid rgb(129, 129, 15);
     color: white;
     border-radius: 10px;
-    /* justify-content: center; */
 }
 .input-text{
     font-size: 10px;
@@ -594,16 +552,11 @@ input{
     .nav-menu{
         display: block;
     }
-    /* .nav-menu{
-        padding-top: 20px;
-        font-size: 5px;
-    } */
     .button-cont{
         display: none;
     }
     .hamburgerIcon{
         display: flex;
-        /* margin-left: 70px; */
     }
     .nav-menu{
         color: white;
@@ -616,11 +569,6 @@ input{
     }
     .four-conts{
         width: 80%;
-
-
-        /* margin: 0 auto; */
-        /* padding: 20px; */
-        /* margin: 0px 0px 30px 0px; */
     }
     .four-hone{
         font-size: var(--font-xxl);
@@ -649,17 +597,14 @@ input{
         height: 50px;
     }
     .top-five{
-        /* height: 150px; */
         min-height: min-content;
        line-height: 25px;
     }
     .middle-five{
-        /* height: 150px; */
         min-height: min-content;
         line-height: 25px;
     }
     .last-five{
-        /* height: 200px; */
         min-height: min-content;
         line-height: 25px;
     }
@@ -673,7 +618,6 @@ input{
         width: 100%;
         height: 600px;
         margin-bottom: 50px;
-        /* height: 40%; */
     }
     .six-htre{
         font-size: var(--font-md);
@@ -685,7 +629,6 @@ input{
     }
     .sixp{
         font-size: var(--font-sm);
-        /* padding: 0 0px 20px 40px; */
     }
     .seven-htre{
         font-size: var(--font-xl);
@@ -709,7 +652,6 @@ input{
     }
     .section-eight{
         padding: 70px;
-        /* gap: 50px; */
     }
     .eight-first{
         background-color: whitesmoke;
@@ -737,7 +679,6 @@ input{
     .section-nine{
         background-color: rgb(1, 1, 34);
         padding: 70px 10px 70px 70px;
-        /* height: 800%; */
     }
     .section-ten{
         padding: 70px;
@@ -745,7 +686,6 @@ input{
     }
     .ten-image{
         width: 80%;
-        /* background-color: red; */
         margin-bottom: 50px;
     }
     .ten-hone{
@@ -765,12 +705,10 @@ input{
     .service-left{
         background-color:rgb(233, 233, 153);
         color: white;
-        /* width: 50%; */
     }
     .service-right{
         background-color: rgb(129, 129, 15);
         color: white;
-        /* width: 50%; */
     }
     .servicep{
         line-height: 30px;
@@ -814,8 +752,6 @@ input{
         margin-bottom: 30px;
         border: 1px solid gray;
         border-radius: 10px;
-        /* margin-bottom: 20px;
-        margin: 20px; */
     }
     .form-button{
         display: block;
@@ -826,7 +762,6 @@ input{
         border: 1px solid rgb(129, 129, 15);
         color: white;
         border-radius: 10px;
-        /* justify-content: center; */
     }
     .input-text{
         font-size: var(--font-sm);
@@ -834,7 +769,6 @@ input{
     }
     .hamburger{
         width: 30px;
-        /* height: 10px; */
         margin-top:20px ;
     }
     .nav-menu{
@@ -866,8 +800,6 @@ input{
         padding: 30px;
         text-align: center;
     }
-    
-    
 }
 /*desktop*/
 @media screen and (min-width:1000px) {
@@ -888,14 +820,11 @@ input{
     }
     .inquire-now{
         width: 100%;
-        /* height: 20px; */
         background-color:rgb(129, 129, 15);
         color: white;
         border: 1px solid rgb(129, 129, 15);
         border-radius: 5px;
-        /* font-size: var(--font-sm); */
         padding: 2px 2px;
-        /* font-weight: 100px; */
         margin-top: 4px;
     }
     .section-one{
@@ -956,11 +885,7 @@ input{
     }
     .button-cont{
         display: block;
-        /* background-color: rgb(129, 129, 15); */
     }
-    /* .nav-links{
-        padding-top: 10px;
-    } */
     .nav-button {
         margin-top: 12px;
         padding:5px;
@@ -972,49 +897,40 @@ input{
         margin-right: 20px;
     }
     .nav-button a{
-        
-        /* background-color: gray; */
         color: white;
         text-decoration: none;
        
     }
     .section-four{
-        /* min-height: min-content; */
         min-height: 600px;
     }
     .four-conts{
         width: 50%;
-        /* margin: 0px 0px 30px 50px; */
-
     }
-    /* .fivep{
-        padding-left: 70px;
-    } */
     .four-hone{
         font-size: var(--font-xxl);
         padding-left: 10px;
         font-size: var(--font-xxl);
         margin-left: 70PX;
-        /* padding: ; */
     }
     .five-conts{
         display: flex;
         margin-top: -30px;
     }
     .top-five{
-        height: 280px;
+        min-height: max-content;
        line-height: 25px;
        width: 50%;
        padding:30px ;
     }
     .middle-five{
-        height: 280px;
+        min-height: max-content;
         line-height: 25px;
         width: 50%;
         padding: 30px;
     }
     .last-five{
-        height: 280px;
+        min-height: max-content;
         line-height: 25px;
         width: 50%;
         padding: 30px;
@@ -1046,7 +962,6 @@ input{
         width: 50%;
         margin-top: 60px;
         margin-left: 60px;
-        /* text-align: center; */
     }
     .section-six{
         padding: 0 70px 30px 70px;
@@ -1069,7 +984,6 @@ input{
         font-size: var(--font-md);
         line-height: 25px;
         color: rgb(61, 61, 61);
-        /* padding: 0 0px 20px 40px; */
     }
     .seven-htre{
         font-size: var(--font-xxl);
@@ -1102,7 +1016,6 @@ input{
     }
     .section-eight{
         padding: 70px;
-        /* gap: 50px; */
     }
     .eight-first{
         background-color: whitesmoke;
@@ -1111,23 +1024,19 @@ input{
         padding: 50px;
         text-align: center;
         border-radius: 10px;
-        /* margin-bottom: 50px; */
     }
     .eight-middle{
         background-color: whitesmoke;
         height: 600px;
         width: 800px;
-        /* padding: 30px; */
         text-align: center;
         border-radius: 10px;
-        /* margin-bottom: 50px; */
     }
     .eight-last{
         background-color: whitesmoke;
         height: 600px;
         width: 800px;
         border-radius: 10px;
-        /* padding: 30px; */
         text-align: center;
     }
     .eight-htre{
@@ -1184,7 +1093,6 @@ input{
 .abtft{
     width: 400px;
     gap: 100px;
-    /* border-radius: 20px; */
 }
 .abtp{
     height: 300px;
@@ -1204,8 +1112,6 @@ input{
     background-image:
     linear-gradient(to bottom, rgba(245, 246, 252, 0.72), rgba(0, 0, 10, 0.80)),
     url('./images/abt..jpg');
-    /* margin-bottom: 100px; */
-    /* padding: 50px; */
     width: 60%;
     margin: 0 auto;
 
@@ -1246,11 +1152,8 @@ input{
     }
     .service-three{
         width: 80%;
-        /* background-color: red; */
-        /* height: 1000px; */
         margin: 0 auto;
         height: 800px;
-        /* margin-bottom: 50px; */
     }
     .service-hone{
         padding-left: 29px;
@@ -1259,7 +1162,6 @@ input{
         display: flex;
     }
     .service-left{
-        /* background-color:rgb(233, 233, 153); */
         background-color: rgb(1, 1, 34);
         color: white;
         width: 50%;
@@ -1306,13 +1208,11 @@ input{
     }
     .contact-question{
         display: block;
-        /* margin-bottom: 20px; */
     }
     
     .contact-last{
         display: flex;
         justify-content: center;
-        /* margin: 0 auto; */
     }
     
     input{
@@ -1321,23 +1221,18 @@ input{
         margin-bottom: 50px;
         border: 1px solid gray;
         border-radius: 10px;
-        /* margin-bottom: 20px;
-        margin: 20px; */
     }
     .input-mssg{
         height: 150px;
         padding: 30px;
     }
     .form-button{
-        /* display: block; */
-        /* margin: 0 auto; */
         width: 50%;
         height: 50px;
         background-color: rgb(129, 129, 15);
         border: 1px solid rgb(129, 129, 15);
         color: white;
         border-radius: 10px;
-        /* justify-content: center; */
     }
     .input-text{
         font-size: var(--font-sm);
@@ -1348,8 +1243,6 @@ input{
         background-color: rgb(247, 244, 244);
         padding: 50px;
         border-radius: 2%;
-        /* margin-bottom: 100px; */
-
     }
     .call-section{
         margin-bottom: 100px;
@@ -1362,14 +1255,7 @@ input{
         color: gray;
         line-height: 45px;
     }
-    /* .sect-ht{
-        border-radius: 3px;
-        border: 1px solid rgb(224, 217, 217);
-        width: 35px;
-        height: 40px;
-    }
-     */
-    
+   
     
     
 }
