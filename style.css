@@ -220,6 +220,10 @@ li a{
 }
 .top-five{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color:rgb(1, 1, 34) ;
     color: white;
     min-height: max-content;
@@ -227,6 +231,10 @@ li a{
 }
 .middle-five{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: rgb(129, 129, 15);
     color: white;
     min-height: max-content;
@@ -234,6 +242,10 @@ li a{
 }
 .last-five{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color:rgb(1, 1, 34) ;
     color: white;
     min-height: max-content;
@@ -241,6 +253,7 @@ li a{
 }
 .five-htre{
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 .fivep{
     font-size: var(--font-sm);
@@ -361,8 +374,8 @@ li a{
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    color: white;
-    margin-bottom: 30px;
+    color: gray;
+    margin-bottom: 10px;
 }
 .ninep{
     line-height: 40px;
@@ -470,6 +483,15 @@ li a{
    margin: auto;
    margin-top: 20px;
 }
+.whole-button a{
+    text-decoration: none;
+    background-color: rgb(129, 129, 15);
+    border: 1px solid rgb(129, 129, 15);
+    border-radius: 8px;
+    color: wheat;
+    display: block;
+    margin: auto;
+ }
 .contact-first{
     width: 100%;
     text-align: center;
@@ -1255,9 +1277,11 @@ input{
         margin-bottom: 100px;
     }
     .link-cont a{
+        display: flex;
+        flex-direction: column;
         text-decoration: none;
         color: gray;
-        line-height: 45px;
+        margin-bottom: 20px;
     }
    
     
