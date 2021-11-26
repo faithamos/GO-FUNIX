@@ -196,6 +196,9 @@ li a{
     color: whitesmoke;
     margin-top: 15px;
 }
+.name{
+    text-align: center;
+}
 .sell-img{
     width: 40px;
 }
